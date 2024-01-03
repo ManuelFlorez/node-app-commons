@@ -1,2 +1,7 @@
 # node-app-commons
-commons
+
+commons install
+
+```bash
+npm install 
+```
