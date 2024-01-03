@@ -13,4 +13,4 @@ npm i node-app-commons
 - Message
 - Channel
 
-## NOTA: The use class.
+## NOTA: The use class
