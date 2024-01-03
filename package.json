@@ -6,7 +6,7 @@
     "url": "https://www.linkedin.com/in/manuelflorezw/"
   },
   "description": "class add to project",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "keywords": ["commons", "template", "basic"],
   "homepage": "https://github.com/ManuelFlorez/node-app-commons",
