@@ -7,5 +7,10 @@
   "description": "class add to project",
   "version": "0.0.1",
   "type": "module",
-  "keywords": ["commons", "template", "basic"]
+  "keywords": ["commons", "template", "basic"],
+  "homepage": "https://github.com/ManuelFlorez/node-app-commons",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ManuelFlorez/node-app-commons.git"
+  }
 }
