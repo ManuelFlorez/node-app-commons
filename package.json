@@ -6,5 +6,6 @@
   },
   "description": "class add to project",
   "version": "0.0.1",
-  "type": "module"
+  "type": "module",
+  "keywords": ["commons", "template", "basic"]
 }
