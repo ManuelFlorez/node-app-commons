@@ -1,7 +1,16 @@
 # node-app-commons
 
-commons install
+## commons install
 
 ```bash
-npm install 
+npm i node-app-commons
 ```
+
+## use class
+
+- Person
+- User
+- Message
+- Channel
+
+## NOTA: The use class.
