@@ -40,7 +40,7 @@ const data = {
 
 const timeline = new Timeline(new Date(), data);
   ...
-timeline.setEnd(new Data());
+timeline.setEnd(new Date());
 
 ```
 
