@@ -1,5 +1,13 @@
-/** Class representing a Person. */
-export default class Person {
+/**
+ * The complete Person.
+ * @typedef {Object} Person
+ * @property {string} name
+ */
+
+/** Class representing a Person. 
+ * @class
+ */
+class Person {
 
     #name;
     /**
@@ -29,3 +37,5 @@ export default class Person {
         return this.#name;
     }
 }
+
+export { Person }

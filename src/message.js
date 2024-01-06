@@ -1,7 +1,14 @@
 /**
- * Class representing a message.
+ * the complete Message.
+ * @typedef {Object} Message
+ * @property {string} msg
  */
-export default class Message {
+
+/**
+ * Class representing a message.
+ * @class
+ */
+class Message {
     #msg
     /**
      * create Message.
@@ -27,3 +34,5 @@ export default class Message {
         this.#msg = message;
     }
 }
+
+export { Message }

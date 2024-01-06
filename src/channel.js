@@ -1,7 +1,15 @@
 import Message from "./message.js"
+/**
+ * the complete Channel.
+ * @typedef {Object} Channel
+ * @property {Message} message
+ * @property {string} queue
+ */
 
-/** Class representing a Chanel. */
-export default class Channel {
+/** Class representing a Chanel.
+ * @class
+*/
+class Channel {
     #message
     #queue
     /**
@@ -46,3 +54,5 @@ export default class Channel {
         this.#queue = queue;
     }
 }
+
+export { Channel }

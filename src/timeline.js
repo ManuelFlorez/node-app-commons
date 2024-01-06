@@ -1,5 +1,15 @@
-/** Class representing a Timeline. */
-export default class Timeline {
+/**
+ * the complete Timeline
+ * @typedef {Object}
+ * @property {Date} initial
+ * @property {Date} end
+ * @property {Object} data
+ */
+
+/** Class representing a Timeline.
+ * @class
+ */
+class Timeline {
     #initial
     #end
     #data
@@ -46,3 +56,5 @@ export default class Timeline {
     }
 
 }
+
+export { Timeline }

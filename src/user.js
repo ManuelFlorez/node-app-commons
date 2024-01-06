@@ -1,10 +1,18 @@
 import Person from "./person.js";
+/**
+ * The complete User.
+ * @typedef {Object} User
+ * @property {string} name
+ * @property {string} email
+ * @property {string} password
+ */
 
 /**
  * Class representing a dot.
+ * @class
  * @extends Person
  */
-export default class User extends Person {
+class User extends Person {
     #email;
     #password;
     #friends = [];
@@ -74,3 +82,5 @@ export default class User extends Person {
     }
 
 }
+
+export { User }
